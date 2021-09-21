@@ -2,6 +2,8 @@ pandoc: 2.7.3
 pkgdown: 1.6.1
 pkgdown_sha: ~
 articles:
+  tlf-demographic: tlf-demographic.html
   tlf-efficacy: tlf-efficacy.html
-last_built: 2021-09-02T23:53Z
+  tlf-kmplot: tlf-kmplot.html
+last_built: 2021-09-21T04:30Z
 

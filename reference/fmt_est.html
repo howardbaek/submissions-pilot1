@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Articles • esubdemo</title>
+<title>Format point estimator — fmt_est • esubdemo</title>
 
 
 <!-- jquery -->
@@ -39,7 +39,8 @@
 
 
 
-<meta property="og:title" content="Articles" />
+<meta property="og:title" content="Format point estimator — fmt_est" />
+<meta property="og:description" content="Format point estimator" />
 
 
 
@@ -58,7 +59,7 @@
   </head>
 
   <body data-spy="scroll" data-target="#toc">
-    <div class="container template-article-index">
+    <div class="container template-reference-topic">
       <header>
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -120,22 +121,40 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-      <h1>Articles</h1>
+    <h1>Format point estimator</h1>
+    
+    <div class="hidden name"><code>fmt_est.Rd</code></div>
     </div>
 
-    <div class="section ">
-      <h3>All vignettes</h3>
-      <p class="section-desc"></p>
-
-      <dl>
-        <dt><a href="tlf-demographic.html">CDISC Pilot: Summary of Demographic and Baseline Characteristics</a></dt>
-        <dd></dt>
-        <dt><a href="tlf-efficacy.html">CDISC Pilot: Efficacy Tables</a></dt>
-        <dd></dt>
-        <dt><a href="tlf-kmplot.html">CDISC Pilot: Kaplan-Meier Plot for Time to First Dermatologic Event</a></dt>
-        <dd></dt>
-      </dl>
+    <div class="ref-description">
+    <p>Format point estimator</p>
     </div>
+
+    <pre class="usage"><span class='fu'>fmt_est</span><span class='op'>(</span><span class='va'>.mean</span>, <span class='va'>.sd</span>, digits <span class='op'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span><span class='op'>(</span><span class='fl'>1</span>, <span class='fl'>2</span><span class='op'>)</span><span class='op'>)</span></pre>
+
+    <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
+    <table class="ref-arguments">
+    <colgroup><col class="name" /><col class="desc" /></colgroup>
+    <tr>
+      <th>.mean</th>
+      <td><p>mean of an estimator.</p></td>
+    </tr>
+    <tr>
+      <th>.sd</th>
+      <td><p>sd of an estimator.</p></td>
+    </tr>
+    <tr>
+      <th>digits</th>
+      <td><p>number of digits for <code>.mean</code> and <code>.sd</code>.</p></td>
+    </tr>
+    </table>
+
+
+  </div>
+  <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
+    <nav id="toc" data-toggle="toc" class="sticky-top">
+      <h2 data-toc-skip>Contents</h2>
+    </nav>
   </div>
 </div>
 
