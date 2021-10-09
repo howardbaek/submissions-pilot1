@@ -10,5 +10,5 @@
     stop("Can not find", startup)
   }
 
-  invisible(startup)
+  invisible(startup) 
 }
