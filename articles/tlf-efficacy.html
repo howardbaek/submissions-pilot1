@@ -105,12 +105,13 @@
 <span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://merck.github.io/r2rtf/">r2rtf</a></span><span class="op">)</span>
 <span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/rvlenth/emmeans">emmeans</a></span><span class="op">)</span>
 <span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va">pilot1wrappers</span><span class="op">)</span></code></pre></div>
-<div id="step-1-read-in-data" class="section level1">
-<h1 class="hasAnchor">
-<a href="#step-1-read-in-data" class="anchor"></a>Step 1: Read in data</h1>
+<div id="step-1-read-in-data" class="section level2">
+<h2 class="hasAnchor">
+<a href="#step-1-read-in-data" class="anchor"></a>Step 1: Read in data</h2>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">adsl</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://haven.tidyverse.org/reference/read_xpt.html">read_xpt</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/file.path.html">file.path</a></span><span class="op">(</span><span class="va">path</span><span class="op">$</span><span class="va">adam</span>, <span class="st">"adsl.xpt"</span><span class="op">)</span><span class="op">)</span>
 <span class="va">adlb</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://haven.tidyverse.org/reference/read_xpt.html">read_xpt</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/file.path.html">file.path</a></span><span class="op">(</span><span class="va">path</span><span class="op">$</span><span class="va">adam</span>, <span class="st">"adlbc.xpt"</span><span class="op">)</span><span class="op">)</span></code></pre></div>
+</div>
 <div id="step-2-ancova-analysis" class="section level2">
 <h2 class="hasAnchor">
 <a href="#step-2-ancova-analysis" class="anchor"></a>Step 2: ANCOVA analysis</h2>
@@ -256,7 +257,6 @@
   <span class="fu"><a href="https://merck.github.io/r2rtf/reference/rtf_encode.html">rtf_encode</a></span><span class="op">(</span><span class="op">)</span> <span class="op">%&gt;%</span>
   <span class="fu"><a href="https://merck.github.io/r2rtf/reference/write_rtf.html">write_rtf</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/file.path.html">file.path</a></span><span class="op">(</span><span class="va">path</span><span class="op">$</span><span class="va">output</span>, <span class="st">"tlf-efficacy.rtf"</span><span class="op">)</span><span class="op">)</span></code></pre></div>
 <embed src="pdf/tlf-efficacy.pdf" width="100%" height="400px" style="display: block; margin: auto;" type="application/pdf"></embed>
-</div>
 </div>
   </div>
 
